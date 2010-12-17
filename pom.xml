@@ -21,9 +21,7 @@
     <artifactId>oss-parent</artifactId>
     <version>1-SNAPSHOT</version>
     <packaging>pom</packaging>
-
-    <name>SourceSense OSS Parent</name>
-    <url>http://nexus.sonatype.org/oss-repository-hosting.html</url>
+    <name>Sourcesense OSS Parent</name>
     <description>SourceSense parent pom that helps open source projects to set up
     Maven repositories on https://oss.sonatype.org/</description>
 
