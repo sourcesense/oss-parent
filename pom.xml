@@ -64,7 +64,7 @@
 
         <site>
             <id>sourcesense-github</id>
-            <url>gitsite:git@github.com/sourcesense/${project.artifactId}.git</url>
+            <url>gitsite:git@github.com/sourcesense/${project.artifactId}.git:${project.version}</url>
         </site>
     </distributionManagement>
 
