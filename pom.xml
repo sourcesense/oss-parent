@@ -175,6 +175,12 @@
         </developer>
 
         <developer>
+            <id>OpenPj</id>
+            <name>Piergiorgio Lucidi</name>
+            <email>p [dot] lucidi [at] sourcesense [dot] com</email>
+        </developer>
+
+        <developer>
             <id>rmanicardi</id>
             <name>Roberto Manicardi</name>
             <email>r [dot] manicardi [at] sourcesense [dot] com</email>
