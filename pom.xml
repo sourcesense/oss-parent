@@ -44,9 +44,9 @@
     </issueManagement>
 
     <scm>
-        <url>git@github.com:sourcesense/oss-parent.git</url>
-        <connection>scm:git::git@github.com:sourcesense/oss-parent.git</connection>
-        <developerConnection>scm:git::git@github.com:sourcesense/oss-parent.git</developerConnection>
+        <url>http://github.com/sourcesense/oss-parent</url>
+        <connection>scm:git:ssh://github.com/sourcesense/oss-parent.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/sourcesense/oss-parent.git</developerConnection>
     </scm>
 
     <distributionManagement>
