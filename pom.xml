@@ -19,7 +19,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.sourcesense</groupId>
     <artifactId>oss-parent</artifactId>
-    <version>1</version>
+    <version>1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Sourcesense OSS Parent</name>
     <description>SourceSense parent pom that helps open source projects to set up
