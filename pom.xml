@@ -330,23 +330,6 @@
 
     <profiles>
         <profile>
-            <id>site</id>
-
-            <activation>
-                <file>
-                    <exists>${basedir}/src/site/site.xml</exists>
-                </file>
-            </activation>
-
-            <distributionManagement>
-                <site>
-                    <id>sourcesense-github</id>
-                    <url>gitsite:git@github.com/sourcesense/${project.artifactId}.git</url>
-                </site>
-            </distributionManagement>
-        </profile>
-
-        <profile>
             <id>release</id>
             <build>
                 <plugins>
