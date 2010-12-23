@@ -22,7 +22,7 @@ your Sonatype password in the next section.
 
 === Sonatype ===
 Using the instructions from the previous step encrypt your Sonatype password and add the following servers to your
-`~/.m2/settings.xml` file.  You may already have other servers in this file.  If not just create the file.
+{{{~/.m2/settings.xml}}} file.  You may already have other servers in this file.  If not just create the file.
 {{{
 <?xml version="1.0" encoding="UTF-8"?>
 <settings>
@@ -62,7 +62,7 @@ The release plugin for maven is already configured in the parent pom file so all
 two steps to complete the release.  The first step will create the release tag and update the pom with the correct
 release and snapshot versions.  The second step will sign and deploy the artifacts to the Sonatype open source repository.
 This repository is synced every hour to the central Maven repositories.
-If you don't supply the optional `gpg.passphrase` then you will be prompted for it.
+If you don't supply the optional {{{gpg.passphrase}}} then you will be prompted for it.
 
  * Prepare the release
 {{{ mvn release:prepare }}}
@@ -83,7 +83,7 @@ following to build the artifacts for the site.
 == Managing Sonatype's Nexus ==
 The parent pom is configured to work with Sonatype's Nexus to simplify the Staging Repository close and promote
 operation, without logging in on Nexus using the browser.
-First of all, add in the `~/.m2/settings.xml`the following snippet:
+First of all, add in the {{{~/.m2/settings.xml}}} the following snippet:
 
 {{{
 <pluginGroups>
@@ -102,7 +102,7 @@ The file located on
 
 contains the Sourcesense's developers' GPG keys. Users can import the keys to verify the artifact signatures.
 
-= Users =
+=== Users ===
 
 Checkout the file by running
 
@@ -112,7 +112,7 @@ and run
 
 {{{ gpg --import KEYS }}}
 
-= Developers =
+=== Developers ===
 
 Checkout the file by running
 
