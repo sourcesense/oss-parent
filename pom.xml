@@ -24,6 +24,7 @@
     <name>Sourcesense OSS Parent</name>
     <description>SourceSense parent pom that helps open source projects to set up
     Maven repositories on https://oss.sonatype.org/</description>
+    <url>http://github.com/sourcesense/oss-parent</url>
 
     <organization>
         <name>Sourcesense</name>
