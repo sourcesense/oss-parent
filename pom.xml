@@ -164,15 +164,15 @@
         </developer>
 
         <developer>
-            <id>peter-budo</id>
-            <name>Peter Mikloško</name>
-            <email>p [dot] miklosko [at] sourcesense [dot] com</email>
-        </developer>
-
-        <developer>
             <id>OpenPj</id>
             <name>Piergiorgio Lucidi</name>
             <email>p [dot] lucidi [at] sourcesense [dot] com</email>
+        </developer>
+
+        <developer>
+            <id>peter-budo</id>
+            <name>Peter Mikloško</name>
+            <email>p [dot] miklosko [at] sourcesense [dot] com</email>
         </developer>
 
         <developer>
