@@ -238,6 +238,14 @@
     </developers>
 
     <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.0-beta-3</version>
+            </plugin>
+        </plugins>
+
         <extensions>
             <extension>
                 <groupId>org.apache.maven.scm</groupId>
@@ -318,7 +326,6 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.build.timestamp.format>yyyy-MM-dd HH:mm:ssZ</maven.build.timestamp.format>
         <implementation.build>${maven.build.timestamp}</implementation.build>
-        <site.skip>true</site.skip>
     </properties>
 
     <profiles>
@@ -326,28 +333,17 @@
             <id>site</id>
 
             <activation>
-                <property>
-                    <name>site.skip</name>
-                    <value>false</value>
-                </property>
+                <file>
+                    <exists>${basedir}/src/site/site.xml</exists>
+                </file>
             </activation>
 
             <distributionManagement>
                 <site>
                     <id>sourcesense-github</id>
-                    <url>gitsite:git@github.com/sourcesense/${project.artifactId}.git:${project.version}</url>
+                    <url>gitsite:git@github.com/sourcesense/${project.artifactId}.git</url>
                 </site>
             </distributionManagement>
-
-            <build>
-                <plugins>
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-site-plugin</artifactId>
-                        <version>3.0-beta-3</version>
-                    </plugin>
-                </plugins>
-            </build>
         </profile>
 
         <profile>
