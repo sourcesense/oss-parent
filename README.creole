@@ -2,8 +2,18 @@
 
 This page will guide the development team with setting up their environment to perform a release.
 
+== Users ==
 
-== Prerequisites  ==
+Declare in your {{{pom.xml}}} the Sourcesense parent pom:
+{{{
+    <parent>
+        <groupId>com.sourcesense</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>VERSION</version>
+    </parent>
+}}}
+
+== Developers ==
 
  * Install/Configure GPG - The artifacts that are deployed to the central maven repositories need to be signed.
  To do this you will need to have a public and private keypair.
