@@ -116,7 +116,7 @@ contains the Sourcesense's developers' GPG keys. Users can import the keys to ve
 
 Checkout the file by running
 
-{{{ git clone git://github.com/sourcesense/oss-parent.git }}}
+{{{ git clone git@github.com:sourcesense/oss-parent.git }}}
 
 and run
 
